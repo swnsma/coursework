@@ -1,0 +1,64 @@
+nav.top ul li:nth-child(4) a{
+    background-color: #d9168d;
+    color: #fff;
+    margin: -1px 0 0 1px;
+    line-height: 25px;
+}
+.content{
+    width: 960px;
+    margin: 0 auto 30px auto;
+}
+h2{
+    font: bold 20pt Times New Roman;
+    color:#353535;
+}
+.content div{
+    background: url('../images/back-container.png') repeat-x;
+}
+h3{
+    margin: 5px 0 5px 0;
+    background: url('../images/login-bg.png');
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.content img{
+    width: 100px;
+    height: 100px;
+}
+table span{
+    font-family: swis721_blkcn_btblack, sans-serif;
+}
+table{
+    border-spacing: 0;
+    background-color: #fff;/*#a5d4e1;*/
+    margin: auto;
+    font: bold 15pt Arial,sans-serif;
+}
+thead{
+    font-style: normal;
+    text-align: center;
+    font-weight: bolder;
+
+}
+tfoot{
+    text-align: center;
+    background-color: #A5E1CD;
+}
+table, td{
+    border: 1px solid #000;/*#155b83;*/
+}
+td{
+    padding: 5px;
+}
+img.right{
+    float: right;
+}
+img.left{
+    float: left;
+}
+.content div.picts{
+    text-align: center;
+    background: none;
+    overflow: hidden;
+}

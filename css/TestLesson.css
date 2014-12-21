@@ -1,0 +1,67 @@
+nav.top ul li:nth-child(5) a{
+    background-color: #d9168d;
+    color: #fff;
+    margin: -1px 0 0 1px;
+    line-height: 25px;
+}
+.content{
+    width: 960px;
+    margin: auto;
+
+}
+video{
+    max-width: 960px;
+    max-height: 720px;
+
+}
+h2{
+    font: bold 20pt Times New Roman;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 0;
+
+}
+.text span{
+    color: #c6c885;
+    line-height: 40px;
+}
+.text{
+    text-align: center;
+    background-image: url("../images/login-bg.png");
+}
+.vid{
+    text-align: center;
+    background: url('../images/back-container.png') repeat-x;
+}
+#theory , #quiz, #afterSubmit{
+    background-color: #404040 ;
+    font-family: Arial, sans-serif;
+    color: #9f9f9f;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+#theory span, #quiz span{
+    color: #c6c885;
+}
+
+h3{
+    color: #c6c885;
+}
+samp{
+    white-space: pre;
+}
+.content a, #sub{
+    border: 1px solid #000000;
+    background-color: #cc0000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+#afterSubmit{
+    text-align: center;
+}
+#quiz, #afterSubmit{
+    display: none;
+    animation: apa 1s;
+}

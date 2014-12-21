@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Связь с нами</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss721BT/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss721BT-Light-Condensed/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss721BT-Black-Condensed/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss911-Extra-Compressed/stylesheet.css"/>
+    <link rel="stylesheet" media="print" type="text/css" href="css/print.css"/>
+    <link rel="stylesheet" type="text/css" href="css/Registration.css"/>
+    <meta charset="utf-8"/>
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="top-back-bg"></div>
+        <div class="content-text">
+            <a href="#" class="bookmark" onclick="add_favorite(this)">
+                <img src="images/text-icon.png">Bookmark this page
+            </a>
+            <span><strong>Расскажите o нас друзьям</strong><img src="images/header-arrow.png"/><span id="ya_share"></span></span>
+            <form name="search" action="">
+                <label><strong>Поиск:</strong><input list="search" type='text' placeholder="Введите ключевые слова"/></label>
+                <label><input type="submit" value="Go"/></label>
+                <label><button>Расширенный</button></label>
+                <datalist id="search">
+                    <option value="Java Script"></option>
+                    <option value="Java"></option>
+                    <option value="PHP"></option>
+                    <option value="HTML5/CSS"></option>
+                    <option value="C/C++"></option>
+                    <option value=".NET"></option>
+                    <option value="Python"></option>
+                </datalist>
+            </form>
+        </div>
+    </header>
+    <div class="slider"><!--
+            --><div class="slider-left">
+        <div class="logo">
+            <h1>Multiple <span>vision</span></h1>
+        </div>
+        <div class="slogan">
+            <span>Minimum<br/><strong>Effort</strong></span><br/>
+            <span>Maximum<br/><strong>output</strong></span>
+        </div>
+    </div><!--
+            --><div class="pictures"><!--
+                --><div class="slider1"><span>Signup</span></div><!--
+                --><div class="slider2"><span>Ideas</span></div><!--
+                --><div class="slider3"><span>Free Registration</span></div><!--
+                --><div class="slider4"><span>Comments</span></div><!--
+                --><div class="slider5"><span>Specials</span></div><!--
+                --></div><!--
+        --><div class="slider-right">
+        <div class="set4"><span>offer<br/>07</span></div>
+        <div class="slogan">
+            <span>Want<br/><strong>jobs?</strong></span><br/>
+            <span>Get it<br/><strong>right here</strong></span>
+        </div>
+    </div><!--
+    --></div><!--end slider-->
+    <nav class="top">
+        <ul>
+            <li><a href="index.html">Домашняя страница</a></li><!--
+            --><li><a href="AboutUs.html">О нас</a></li><!--
+            --><li><a href="OurRegions.html">Где мы есть</a></li><!--
+            --><li><a href="OurCostumers.html">О наших пользователях</a></li><!--
+            --><li><a href="TestLesson.html">Пробный урок</a></li><!--
+            --><li><a href="ContactUs.html">Связь с нами</a></li><!--
+            --><li><a href="Registration.html">Регистрация</a></li>
+        </ul>
+    </nav><!--end nav top-->
+    <div class="content">
+        <h2>А теперь пять минут терпения и Вы с нами</h2>
+        <div class="table">
+        <form name="registration" action="">
+            <div>
+                <label class="left">Ваше имя на нашем сервисе:</label><span class="right"><input name="userName" type="text" placeholder="Ваше имя"/></span>
+            </div>
+            <div>
+                <label class="left">Пароль:</label><span class="right"><input name="password" type="password" placeholder="Пароль"/></span>
+            </div>
+            <div>
+                <label class="left">Повторите пароль:</label><span class="right"><input name="password" type="password" placeholder="Повторите пароль"/></span>
+            </div>
+            <div>
+                <label class="left">Почтовый ящик:</label><span class="right"><input name="mail" type="text" placeholder="Почтовый ящик"/></span>
+            </div>
+            <div>
+                <label class="left">Мобильный телефон:</label><span class="right"><input name="telephone" type="text" placeholder="+380"/></span>
+            </div>
+            <div>
+                <label class="left">Ваше реальное имя:</label><span class="right"><input name="realName" type="text" placeholder="Реальное имя"/></span>
+            </div>
+            <div>
+                <label class="left">Фамилия:</label><span class="right"><input name="secondName" type="text" placeholder="Фамилия"/></span>
+            </div>
+             <div>
+                 <label class="left">Ваш пол:</label><span class="right"><label><input value="male" name="male" type="radio"/>Мужской</label> <label><input value="female" name="male" type="radio"/>Женский</label></span>
+             </div>
+            <div>
+                <label class="left">Область:</label><span class="right"><label><select>
+                <option value="vin">Винницкая</option>
+                <option value="vol">Волынская</option>
+                <option value="dnpr">Днепропетровская</option>
+                <option value="don">Донецкая</option>
+                <option value="zht">Житомирская</option>
+                <option value="zkrpt">Закарпатская</option>
+                <option value="zpr">Запорожская</option>
+                <option value="ivnfr">Ивано-Франковская</option>
+                <option value="kiev">Киевская</option>
+                <option value="kirov">Кировоградская</option>
+                <option value="lyg">Луганская</option>
+                <option value="lvv">Львовская</option>
+                <option value="nik">Николаевская</option>
+                <option value="odes">Одесская</option>
+                <option value="pol">Полтавская</option>
+                <option value="rov">Ровенская</option>
+                <option value="sum">Сумская</option>
+                <option value="ter">Тернопольская</option>
+                <option value="har">Харьковская</option>
+                <option value="her">Херсонская</option>
+                <option value="hmel">Хмельницкая</option>
+                <option value="cherk">Черкасская</option>
+                <option value="chern">Черниговская</option>
+                <option value="chernov">Черновицкая</option>
+                <option value="krim">АР Крым</option>
+                </select></label></span>
+            </div>
+            <div>
+                <label class="left">Чем вы занимаетесь?</label><span class="right"><label><select multiple="multiple">
+                <option value="stud">Учусь</option>
+                <option value="work">Работаю</option>
+                <option value="itwork">Работаю в IT-сфере</option>
+                <option value="dontWork">Временно не работаю</option>
+                </select></label></span>
+            </div>
+            <div>
+                <label class="left">Немного о себе</label><span class="right"><label><textarea></textarea></label></span>
+            </div>
+            <div>
+                <label class="left">Соглашения</label><span class="right"><label><input type="checkbox"/>Соглашаюсь с правилами сайта</label><br/><label><input type="checkbox"/>Готов получать оповещения о новых событиях и новостях</label></span>
+            </div>
+            <div><label class="left"></label><span class="right"><input type="submit" value="Зарегистрироваться"/> <input type="reset" value="Сбросить"/></span></div>
+        </form>
+        </div>
+    </div><!--end content-->
+    <nav class="bottom">
+        <ul>
+            <li><a href="index.html">Домашняя страница</a></li>|
+            <li><a href="AboutUs.html">О нас</a></li>|
+            <li><a href="OurRegions.html">Где мы есть</a></li>|
+            <li><a href="OurCostumers.html">О наших пользователях</a></li>|
+            <li><a href="TestLesson.html">Пробный урок</a></li>|
+            <li><a href="ContactUs.html">Связь с нами</a></li>|
+            <li><a href="Registration.html">Регистрация</a></li>
+        </ul>
+    </nav><!--end nav bottom-->
+    <footer>Copyright &copy Multiple vision 2014 All Right Reserved</footer>
+</div><!--end container-->
+</body>
+<script type="text/javascript" src="js/bookmark.js"></script>
+<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/Share.js"></script>
+<script src="js/js2.js"></script>
+</html>

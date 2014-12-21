@@ -1,0 +1,72 @@
+nav.top ul li:nth-child(2) a{
+    background-color: #d9168d;
+    color: #fff;
+    margin: -1px 0 0 1px;
+    line-height: 25px;
+}
+.content{
+    margin: auto;
+    width: 960px;
+}
+.content .text-info p{
+    padding: 10px 0 20px 10px;
+    color:#9f9f9f;
+    background-image: url('../images/login-bg.png');
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.content .text-info span{
+    font: 16pt Arial, sans-serif;
+    color: #404040;
+
+}
+.content .text-info p a{
+    color: #63bbe7;
+}
+.content .text-info{
+    margin-bottom: 30px;
+}
+.content .text-info h2{
+    font: bold 25pt Arial, serif;
+    padding-left: 10px;
+    margin-bottom: 0;
+    color: #404040;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid #d9168d;
+}
+
+.content .text-info p span{
+    font-size: 12pt;
+    font-style: italic;
+    color: #c6c885;
+}
+.lng{
+    overflow: hidden;
+    border: 2px dashed #63bbe7;
+    border-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.lng img{
+    width: 320px;
+    height: 160px;
+}
+.lng span{
+    color: #cb7700;
+    font-style: italic;
+}
+.left img{
+    float: left;
+    padding-right: 10px;
+}
+.right img{
+    float: right;
+    padding-left: 10px;
+}
+.left{
+    padding-right: 10px;
+}
+.right {
+    padding-left: 10px;
+}

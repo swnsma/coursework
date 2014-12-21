@@ -1,0 +1,61 @@
+nav.top ul li:nth-child(7) a{
+    background-color: #d9168d;
+    color: #fff;
+    margin: -1px 0 0 1px;
+    line-height: 25px;
+}
+.content{
+    margin: auto;
+    width: 960px;
+}
+h2{
+    font: bold 20pt Times New Roman;
+    text-align: center;
+    color:#353535;
+}
+.table{
+    display: table;
+    background-color: #404040 ;
+    font-family: Arial, sans-serif;
+    color: #9f9f9f;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 30px;
+    width: 900px;
+}
+
+.table div{
+    display: table-row;
+}
+.table .left, .table .right {
+    display: table-cell;
+    vertical-align: middle;
+}
+.table .left{
+    width: 50%;
+    text-align: right;
+}
+.table .right{
+    padding: 5px 0 5px 20px;
+}
+.table .right label{
+    font-size: 8pt;
+}
+.table [type='password'], .table [type='text'], .table textarea{
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.table select{
+    width: 305px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.table textarea{
+    resize: none;
+    height: 100px;
+}
+.table [type='submit'], .table [type='reset']{
+    border: 1px solid #000000;
+    background-color: #cc0000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}

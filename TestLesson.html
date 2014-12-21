@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пробный урок</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss721BT/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss721BT-Light-Condensed/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss721BT-Black-Condensed/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/Swiss911-Extra-Compressed/stylesheet.css"/>
+    <link rel="stylesheet" media="print" type="text/css" href="css/print.css"/>
+    <link rel="stylesheet" type="text/css" href="css/TestLesson.css"/>
+    <meta charset="utf-8"/>
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="top-back-bg"></div>
+        <div class="content-text">
+            <a href="#" class="bookmark" onclick="add_favorite(this)">
+                <img src="images/text-icon.png">Bookmark this page
+            </a>
+            <span><strong>Расскажите o нас друзьям</strong><img src="images/header-arrow.png"/><span id="ya_share"></span></span>
+            <form name="search" action="">
+                <label><strong>Поиск:</strong><input list="search" type='text' placeholder="Введите ключевые слова"/></label>
+                <label><input type="submit" value="Go"/></label>
+                <label><button>Расширенный</button></label>
+                <datalist id="search">
+                    <option value="Java Script"></option>
+                    <option value="Java"></option>
+                    <option value="PHP"></option>
+                    <option value="HTML5/CSS"></option>
+                    <option value="C/C++"></option>
+                    <option value=".NET"></option>
+                    <option value="Python"></option>
+                </datalist>
+            </form>
+        </div>
+    </header>
+    <div class="slider"><!--
+            --><div class="slider-left">
+        <div class="logo">
+            <h1>Multiple <span>vision</span></h1>
+        </div>
+        <div class="slogan">
+            <span>Minimum<br/><strong>Effort</strong></span><br/>
+            <span>Maximum<br/><strong>output</strong></span>
+        </div>
+    </div><!--
+            --><div class="pictures"><!--
+                --><div class="slider1"><span>Signup</span></div><!--
+                --><div class="slider2"><span>Ideas</span></div><!--
+                --><div class="slider3"><span>Free Registration</span></div><!--
+                --><div class="slider4"><span>Comments</span></div><!--
+                --><div class="slider5"><span>Specials</span></div><!--
+                --></div><!--
+        --><div class="slider-right">
+        <div class="set4"><span>offer<br/>07</span></div>
+        <div class="slogan">
+            <span>Want<br/><strong>jobs?</strong></span><br/>
+            <span>Get it<br/><strong>right here</strong></span>
+        </div>
+    </div><!--
+    --></div><!--end slider-->
+    <nav class="top">
+        <ul>
+            <li><a href="index.html">Домашняя страница</a></li><!--
+            --><li><a href="AboutUs.html">О нас</a></li><!--
+            --><li><a href="OurRegions.html">Где мы есть</a></li><!--
+            --><li><a href="OurCostumers.html">О наших пользователях</a></li><!--
+            --><li><a href="TestLesson.html">Пробный урок</a></li><!--
+            --><li><a href="ContactUs.html">Связь с нами</a></li><!--
+            --><li><a href="Registration.html">Регистрация</a></li>
+        </ul>
+    </nav><!--end nav top-->
+    <div class="content">
+        <div class="text">
+            <h2>Добро пожаловать на тестовый урок!</h2>
+            <span>А теперь расположитесь поудобнее, просмотрите видеоурок. Ознакомтесь с теорией и ответьте на несколько вопросов ;-)</span>
+        </div>
+        <div class="vid">
+            <video controls="controls" poster="images/HTML5_CSS3.jpg">
+                <source src="video/video1.webm" type="video/webm"/>
+                <source src="video/video4.mp4">
+            </video>
+        </div>
+        <div id="theory">
+        <p>
+            <span>HTML</span>(Hyper Text Markup Language) - язык гипертекстовой разметки. Был создан в 1989 году. <span>Команды HTML</span> называются тегами. Теги делятся на два вида: одиночные и парные.
+            За этапы своего развития язык пережил множество изменений. На даный момент последняя версяя языка - <span>HTML 5.0</span>.
+            <span>XHTML</span>(eXtensible Hyper Text Markup Language) - расширеный <span>HTML</span>. <span>XHTML</span> более требовательный к синтаксису, нежели <span>HTML</span>.
+            Различия:
+        </p>
+        <ol>
+            <li> В <span>XHTML</span> документе все теги должны закрываться.</li>
+            <li>Названия тегов и параметров записываются исключительно в нижнем регистре.</li>
+            <li>В <span>XHTML</span> должны выполняться правила вложения тегов</li>
+            <li>Значение параметров тегов в <span>XHTML</span> записуются в двойных кавычках.</li>
+            <li>Все параметры в <span>XHTML</span> должны иметь значения</li>
+            <li><span>XHTML</span> в первых строках должен иметь служебный тег <span>&#8249;!DOCTYPE&#8250;</span></li>
+        </ol>
+            Самый простой <span>XHTML</span> имеет вид:<br/>
+                    <samp>
+                    &#8249;!DOCTYPE html
+                    PUBLIC &quot; -//W3C//DTD XHTML 1.0 Transitional//EN &quot;
+                    &quot; http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd &quot;&#8250;
+                    &#8249;html&#8250;
+                        &#8249;head&#8250;
+                             &#8249;title&#8250;Название документа&#8249;/title&#8250;
+                        &#8249;/head&#8250;
+                        &#8249;body&#8250;
+                        &#8249;/body&#8250;
+                    &#8249;/html&#8250;
+                    </samp>
+
+        <p>
+            Типы <span>XHTML</span> документов:<br/>
+            <span>Strict</span> - разрешает использовать теги исключительно логического форматирования.(Логическое форматирование - выделение структурных элементов страницы).<br/>
+            <span>Transitional</span> - разрешает использовать теги и параметры связаные с физическим форматированием страницы(Физическое форматирование - форматирование отображения на странице).<br/>
+            <span>Frameset</span> - проект с использованием вставки других страниц(использование фреймворков). Считается устарелым подходом.<br/>
+            В языке <span>HTML</span> есть комментарии. Коментарий открывается при помощи написания <span>&#8249;!--</span> комментарий <span>--&#8250;</span>
+        </p>
+            <a href="#quiz">Пройти тест</a>
+        </div>
+        <div id="quiz">
+            <form name="tests" action="">
+                <ol>
+                    <li>
+                        Как расшифровывается <span>XHTML?</span><br/>
+                        <label><input value="q11" name="q1" type="radio"/>eXtensible HyperText Markup List</label><br/>
+                        <label><input value="q12" name="q1" type="radio"/>eXtensible HyperText Makekup Language</label><br/>
+                        <label><input value="q13" name="q1" type="radio"/>eXtensible HyperText Markup Language</label><br/>
+                        <label><input value="q14" name="q1" type="radio"/>eXtensible HyperType Markup Language</label><br/>
+                    </li>
+                    <li>
+                        В чем разнница между документами <span>Strict</span> и <span>Transitional</span>?<br/>
+                        <label><input value="q21" name="q2" type="radio"/>Порядок отображения элементов.</label><br/>
+                        <label><input value="q22" name="q2" type="radio"/>В скорости передачи данных.</label><br/>
+                        <label><input value="q23" name="q2" type="radio"/>В преминении свойств CSS.</label><br/>
+                        <label><input value="q24" name="q2" type="radio"/>В преминении тегов и атрибутов физического форматирования.</label><br/>
+                    </li>
+                    <li>
+                        Сколько тегов <span>&#8249;!DOCTYPE&#8250;</span> должно быть на странице документа <span>XHTML</span> и где они должны быть расположены?<br/>
+                        <label><input value="q31" name="q3" type="radio"/>1. В любом месте.</label><br/>
+                        <label><input value="q32" name="q3" type="radio"/>2. В любом месте.</label><br/>
+                        <label><input value="q33" name="q3" type="radio"/>1. В начале документа.</label><br/>
+                        <label><input value="q34" name="q3" type="radio"/>Сколько угодно и где угодно.</label><br/>
+                    </li>
+                    <li>
+                        Виберете тег документа <span>XHTML</span>.<br/>
+                        <label><input value="q41" name="q4" type="radio"/>&#8249;p&#8250;&#8249;SpAn&#8250;&#8249;/SpaN&#8250;&#8249;/p&#8250;</label><br/>
+                        <label><input value="q42" name="q4" type="radio"/>&#8249;p&#8250;&#8249;span&#8250;&#8249;a&#8250;&#8249;/span&#8250;&#8249;/p&#8250;&#8249;/a&#8250;</label><br/>
+                        <label><input value="q43" name="q4" type="radio"/>&#8249;p&#8250;&#8249;span&#8250;&#8249;/span&#8250;</label><br/>
+                        <label><input value="q44" name="q4" type="radio"/>&#8249;p&#8250;&#8249;span&#8250;&#8249;a&#8250;&#8249;/a&#8250;&#8249;/span&#8250;&#8249;/p&#8250;</label><br/>
+                    </li>
+                    <li>
+                        Выберете правильную последовательность открытия страницы в окне браузера.<br/>
+                        <label><input value="q51" name="q5" type="radio"/>Компьютер - Сервер - DNS-Сервер - Компьютер</label><br/>
+                        <label><input value="q52" name="q5" type="radio"/>Компьютер - DNS-Сервер - Сервер  - Компьютер</label><br/>
+                        <label><input value="q53" name="q5" type="radio"/>Компьютер - DNS-Сервер - Компьютер - Сервер</label><br/>
+                        <label><input value="q54" name="q5" type="radio"/>Сервер - DNS-Сервер - Компьютер - Сервер</label><br/>
+                    </li>
+                    <li>
+                        Что такое тег??<br/>
+                        <label><input value="q61" name="q6" type="radio"/>Тип документа</label><br/>
+                        <label><input value="q62" name="q6" type="radio"/>Команда языка <span>HTML</span></label><br/>
+                        <label><input value="q63" name="q6" type="radio"/>Тип запроса на DNS-Сервер</label><br/>
+                        <label><input value="q64" name="q6" type="radio"/>Способ отображения файлов полученых с сервера.</label><br/>
+                    </li>
+                    <li>
+                        Зачем используется CSS?<br/>
+                        <label><input value="q71" name="q7" type="radio"/>Создать каркас страницы</label><br/>
+                        <label><input value="q72" name="q7" type="radio"/>Отправить запрос на сервер</label><br/>
+                        <label><input value="q73" name="q7" type="radio"/>Отобразить физическое форматирование страницы</label><br/>
+                        <label><input value="q74" name="q7" type="radio"/>Объявить версию языка <span>HTML</span></label><br/>
+                    </li>
+                    <li>
+                        Почему в браузере не отображается текст, расположенный между тегами &#8249;!-- и --&#8250;?<br/>
+                        <label><input value="q81" name="q8" type="radio"/>Потому что таких тегов не существует и браузер их игнорирует.</label><br/>
+                        <label><input value="q82" name="q8" type="radio"/>Это команда для поисковых систем, а не для браузера.</label><br/>
+                        <label><input value="q83" name="q8" type="radio"/>Это комментарий к коду, поэтому он не выводится.</label><br/>
+                        <label><input value="q84" name="q8" type="radio"/>Это деректива, которая дает серверу задачу выполнить определенную команду.</label><br/>
+                    </li>
+                    <li>
+                        Укажите правильный тег.<br/>
+                        <label><input value="q91" name="q9" type="radio"/>&#8249;p&#8250;</label><br/>
+                        <label><input value="q92" name="q9" type="radio"/>&#8249;A&#8250;</label><br/>
+                        <label><input value="q93" name="q9" type="radio"/>&#8249;span&#8250;&#8249;/span&#8250;</label><br/>
+                        <label><input value="q94" name="q9" type="radio"/>&#8249;a&#8250;&#8249;a&#8250;</label><br/>
+                    </li>
+                    <li>
+                        Понравился ли Вам первый урок? ;-)<br/>
+                        <label><input value="q101" name="q10" type="radio"/>Очень.</label><br/>
+                        <label><input value="q102" name="q10" type="radio"/>Понравился.</label><br/>
+                        <label><input value="q103" name="q10" type="radio"/>Можно было и лучше.</label><br/>
+                        <label><input value="q104" name="q10" type="radio"/>Не понравился.</label><br/>
+                    </li>
+                </ol>
+                <input id="sub" type="button" value="Отправить результат"/>
+            </form>
+        </div>
+        <div id="afterSubmit">
+            <h3>Мы уверены что вам понравилось!;-)</h3>
+            <p>А теперь долой сомнения и пройдите бесплатную регистрацию</p>
+            <a href="Registration.html">Регистрация</a>
+        </div>
+    </div><!--end content-->
+    <nav class="bottom">
+        <ul>
+            <li><a href="index.html">Домашняя страница</a></li>|
+            <li><a href="AboutUs.html">О нас</a></li>|
+            <li><a href="OurRegions.html">Где мы есть</a></li>|
+            <li><a href="OurCostumers.html">О наших пользователях</a></li>|
+            <li><a href="TestLesson.html">Пробный урок</a></li>|
+            <li><a href="ContactUs.html">Связь с нами</a></li>|
+            <li><a href="Registration.html">Регистрация</a></li>
+        </ul>
+    </nav><!--end nav bottom-->
+    <footer>Copyright &copy Multiple vision 2014 All Right Reserved</footer>
+</div><!--end container-->
+</body>
+<script type="text/javascript" src="js/bookmark.js"></script>
+<script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/Share.js"></script>
+<script src="js/js2.js"></script>
+<script src="js/js.js"></script>
+<script src="js/animationTestLesson.js"></script>
+</html>
