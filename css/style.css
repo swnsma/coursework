@@ -68,7 +68,7 @@ nav.bottom ul{
 }
 nav.top{
     width: 960px;
-    margin: -4px auto 0 auto;
+    margin: 1px auto 0 auto;
     background-color: #e7e8ca;
     border-bottom: 5px solid #d9168d;
     height: 24px;
@@ -95,7 +95,7 @@ nav.top li, nav.bottom li{
     display: inline-block;
 }
 nav.top ul{
-    margin-top: 0;
+    margin-top: 0px;
     margin-left: 130px;
     padding: 0;
     margin-bottom: 0;
@@ -105,10 +105,13 @@ nav.top ul{
 }
 .slider1, .slider2,  .slider4, .slider5{
     width: 97px;
-    margin: 9px 9px 9px 0;
+    margin: 8px 9px 8px 0;
     height: 220px;
     display: inline-block;
     position: relative;
+}
+.slider1{
+    margin-left: 9px;
 }
 @font-face {
     font-family: 'Standard0757';
@@ -158,20 +161,19 @@ h1 span{
 .slider-left{
     background-image: url(../images/left-slide.png);
     width: 130px;
-    height: 240px;
-    display: inline-block;
     margin-right: 9px;
     position: relative;
 }
 .slider-right{
     background-image: url(../images/right-slider.png);
     width: 123px;
-    height: 240px;
-    display: inline-block;
     position: relative;
 }
-.pictures{
-    display: inline-block;
+.slider-left, .slider-right, .pictures{
+    display: table-cell;
+}
+.slider{
+    display: table;
 }
 .slider .slogan{
     text-align: center;
@@ -221,7 +223,7 @@ h1 span{
     background-image: url('../images/slider3.png');
     display: inline-block;
     height: 220px;
-    margin: 9px 9px 9px 0;
+    margin: 8px 9px 8px 0;
     width: 265px;
     position: relative;
 }
