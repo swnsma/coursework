@@ -253,6 +253,7 @@ header{
 }
 header .content-text{
     padding: 8px 0;
+    border-top: 7px solid #404040;
 }
 header .bookmark img{
     padding: 0 2px ;
@@ -295,8 +296,4 @@ header form{
 }
 header [type='text']{
     box-shadow: 1px 0 0 1px rgba(128, 128, 128, 0.5);
-}
-header .top-back-bg{
-    background-color: #444;
-    height: 7px;
 }
